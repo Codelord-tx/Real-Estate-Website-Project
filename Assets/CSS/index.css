@@ -1,0 +1,556 @@
+@import url('../../lib/bootstrap\ icons/bootstrap_icons.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.3s linear;
+    font-family: system-ui;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    /* background: rgb(238, 197, 197); */
+}
+
+.Page-top {
+    /* background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.212), rgba(0, 0, 255, 0.308)); */
+    /* background: rgb(238, 238, 238); */
+    background: white;
+    height: 95vh;
+    padding: 10px;
+    width: 90vw;
+    margin: 10px 0 0 4.7vw;
+}
+
+.nav-wrapper {
+height:80px;
+width:100%;
+position: fixed;
+top:0;
+left:0;
+    z-index: 999;
+background:white;
+   /* backdrop-filter: blur(10px); */
+    }
+
+nav {
+    width: 88vw;
+    height: 60px;
+    margin-top: 10px;margin-left: 6vw;
+    /* background: #fefefe; */
+    border-radius: 15px;
+    transition: 0s;
+    z-index: 999;
+    background: white;
+}
+
+.scrolledUp {
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.295);
+    background: white;
+    position: fixed;
+    /* width:88vw; */
+    transition: 0s;
+}
+
+nav .logo {
+    width: fit-content;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+
+nav ul li {
+    float: left;
+    margin: 10px 12px;
+    text-decoration: none;
+}
+
+nav ul li {
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    /* font-weight: bold; */
+    scale: 1.2;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+nav ul button {
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 8px;
+    color: white;
+    background: blue;
+    font-size: 17px;
+}
+
+nav ul {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.active {
+    font-weight: bold;
+    color: red;
+    scale: 1.2;
+}
+
+.big-title-buy_sell_rent-container {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    margin-top: 30px;
+    background: white;
+}
+
+.big-title {
+    /* background: grey; */
+    width: 430px;
+    height: auto;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.big-title h1 {
+    font-size: 3rem;
+}
+
+.buy-sell-rent-container {
+    width: 700px;
+    height: 130px;
+    background: white;
+    z-index: 5;
+    top: 40px;
+    position: relative;
+}
+
+.buy-sell-rent-container {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.295), -3px -3px 5px rgba(0, 0, 0, 0.295);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.buy-sell-rent-container div:nth-child(1) {
+    box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.295), -3px -5px 5px rgba(0, 0, 0, 0.295);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.buy-sell-rent-container button {
+    padding: 5px 12px;
+    width: 80px;
+    margin: 0 -10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+    left: 15px;
+}
+
+/* .buy-sell-rent-container button:nth-child(1) {
+    color:red;
+} */
+
+.buy-sell-rent-container div:nth-child(1) {
+    width: 250px;
+    background: white;
+    position: relative;
+    top: -30px;
+    /* background: red; */
+}
+
+.buy-sell-rent-container div:nth-child(2) {
+    height: 100px;
+    /* background: red; */
+}
+
+.buy-sell-rent-container div:nth-child(2) select {
+    /* font-weight: bold */
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    margin: 0 30px;
+    outline: none;
+    border: none;
+}
+
+.buy-sell-rent-container div:nth-child(2) select:nth-child(2) {
+    width: 130px;
+}
+
+.buy-sell-rent-container div:nth-child(3) {
+    display: block;
+}
+
+.buy-sell-rent-container div:nth-child(3) h2:nth-child(3) {
+    /* margin-left: -50px; */
+    color: green;
+}
+
+.big-title-buy_sell_rent-container h2 {
+    font-weight: bolder;
+    font-size: 25px;
+    float: left;
+    margin: 10px 50px;
+}
+
+.buy-sell-rent-container .search-btn {
+    width:110px;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: bold;
+    float:right;
+    margin-right: 30px;
+}
+
+.buy-sell-rent-container .search-btn i {
+    /* color:red; */
+    margin-top: -15px;
+    font-size: 17px;
+}
+
+.Image-by-the-right {
+    height: 500px;
+    width: 400px;
+    background: #000;
+    float: right;
+    margin-top: -55vh;
+    /* position: absolute; */
+    margin-right: 20px;
+    border-radius: 22px;
+    border-style: double;
+    z-index: 2;
+}
+
+.Image-by-the-right img {
+    height: 100%;
+    width: 400px;
+    border-radius: 22px;
+}
+
+.cards {
+    width: 90vw;
+    height: auto;
+    padding: 15px;
+    margin-top: 1.5vw;
+    margin-left: 4.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* place-items: center; */
+    /* background: white; */
+    border-radius: 10px;
+}
+
+.header-word {
+    /* display: block; */
+    width: 600px;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+    /* position: absolute; */
+}
+
+.header-word h1 {
+    text-align: center;
+    padding: 10px;
+    /* position: absolute; */
+}
+
+.sub-cards {
+    width: 200px;
+    height: 150px;
+    background: white;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.parthers .sub-cards:nth-child(1) {
+    background-image: url('../Images/Parthners\ Homebuild.png');
+}
+
+.parthers .sub-cards:nth-child(2) {
+    background-image: url('../Images/Pathners\ biotech.png');
+}
+.parthers .sub-cards:nth-child(3) {
+    background-image: url('../Images/Pathners\ three.png');
+}
+
+.parthers .sub-cards:nth-child(4) {
+    background-image: url('../Images/Pathners\ express.png');
+}
+.parthers .sub-cards:nth-child(5) {
+    background-image: url('../Images/Pathners\ connect.png');
+}
+
+.popular-property {
+    height:425px;
+    width:30%;
+    margin:10px 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.595);
+}
+
+.house-images{
+    height:250px;
+    width:100%;
+    border-top-right-radius: 10px;border-top-left-radius: 10px;
+}
+
+.popular-property h3 {
+    margin: 10px 0 0 5px;
+}
+.popular-property .icons-right {
+    float:right;
+    margin-right:20px;
+    margin-top: -25px;
+}
+.popular-property span {
+    margin: -5px 5px 0 7px;
+}
+.popular-property i:hover {
+    scale: 1.2;
+    color:rgb(179, 35, 35);
+}
+
+.popular-property .active:hover {
+    color: red;
+}
+
+.popular-property .price-tag {
+    color:red;
+    font-weight: bolder;
+    padding:10px;
+    font-size:30px;
+}
+
+.popular-property .view-details {
+    float: right;
+    padding: 8px;
+    color:white;
+    background: blue;
+    border-radius: 12px;
+    margin-top: -55px;
+        margin-bottom: 10px;
+        margin-right: 13px;
+        font-size: 18px;
+        outline:none;
+        border: double;
+}
+
+.block-display {
+    height:500px;
+    width:30%;
+    background: none;
+}
+
+.block-display:nth-child(1),.block-display:nth-child(3) {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.block-display:nth-child(2) {
+    background: url('../Images/Building_By\ the\ right.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.sub_sub-cards {
+width:90%;
+height:30%;
+margin:10px 0;
+padding: 7px;
+border-radius: 10px;
+background: white;
+}
+
+.sub_sub-cards .small_logo {
+    height:40px;
+    margin: 10px 0 0 2px;
+    image-resolution: 1000px;
+    border-radius: 10px;
+}
+
+.reviews {
+    height: auto;
+    padding: 20px;
+    width:40%;
+    margin:5px 20px;
+    /* outline: 2px solid black; */
+    border-style: double;
+    border-width: 1px;
+    border-color: darkslategrey;
+    background: white;
+}
+
+.person {
+    width:300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        margin: 10px 0 0 5px;
+}
+
+.reviews .small_logo {
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+.indicator-cont {
+    width:100px;
+    height:auto;
+    padding: 10px;
+    background: rgb(255, 255, 255,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+}
+
+.indicator {
+    height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background: rgba(0, 0, 255, 0.267);
+        margin:5px;
+}
+
+.indicator-active {
+    background: red;
+}
+
+.home-listed {
+    color:white;
+    background: rgb(76, 42, 107);
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.email-address-bar {
+    width:520px;
+    padding: 5px;
+    color:black;
+    background: white;
+    border-radius: 15px;
+}
+
+/* .email-address-bar::before {
+    content: '';
+    width: 200px;
+        height: 200px;
+        background: green;
+        border-radius: 50%;
+        position: relative;
+        top:10px;
+} */
+
+.email-address-bar input[type="email"] {
+width:400px;
+margin-left: 0;
+}
+
+.email-address-bar input[type="submit"] {
+    margin-right: 2px;
+    color:white;
+    background: blue;
+}
+
+.email-address-bar input[type="email"],.email-address-bar input[type="submit"] {
+    border-radius: 12px;
+    outline:none;
+    border: none;
+    font-size: 17px;
+    padding: 10px;
+}
+
+footer {
+    background: white;
+}
+
+footer .sub-cards {
+    height:300px;
+    width:300px;
+}
+
+footer .sub-cards img {
+    height: 100px;
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    margin:0 25px;
+}
+
+footer .sub-cards {
+    padding: 7px;
+    height: auto;
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    margin: 0 25px;
+}
+
+footer .foot-divs {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+footer .foot-divs ul li {
+    text-align: left;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.icon-box{
+    width: 100%;
+    height: auto;
+    padding:5px;
+    /* background: red; */
+} 
+
+.icon-box i {
+    cursor: pointer;
+    font-size: 28px;
+    margin:5px 7px;
+  /* color:red; */
+}
+
+.icon-box i:hover {
+    font-size: 30px;
+    color:red;
+    /* padding: 8px;  */
+    scale: 1.2;
+}
